@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @stack('styles')<!-- Reservar espacio en memoria para hojas de estilo que se requierean solamente en un archivo y no en todas -->
-        @vite('resources/css/app.css')
         <title>DevStagram - @yield('titulo')</title>
+        @vite('resources/css/app.css')
         @vite('resources/js/app.js')
 
         @livewireStyles
